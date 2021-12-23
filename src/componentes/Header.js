@@ -6,7 +6,7 @@ class Header extends React.Component{
        return (
            <div className='header-box'>
                <div className='text-style'>
-                    Header
+                    Attendance
                </div>
            </div>
            )

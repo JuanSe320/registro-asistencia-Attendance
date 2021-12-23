@@ -1,18 +1,36 @@
 import React from 'react';
 import styles from '../estilos/LoginUsers.css';
-class LoginUsers extends React.Component{
+class LoginUsersSdt extends React.Component{
     
     render(){
         const {img,title}=this.props    
         return(
 
-            <div className='loginUser-box'>
-                <div >
-                 <img className='imageIconSize'  src= {img} alt={"img"}/>
-                </div>
-                <div>
-                   <h1>{title}</h1>
-                </div>
+            <div className='loginUsers-box'>
+               <div className='loginUsersAdm-box'> 
+                    <div >
+                    <img className='imageIconSize'  src= {img} alt={"img"}/>
+                    </div>
+                    <div>
+                    <h1>Admin</h1>
+                    </div>
+               </div>
+               <div className='loginUsersProf-box'> 
+                    <div >
+                    <img className='imageIconSize'  src= {img} alt={"img"}/>
+                    </div>
+                    <div>
+                    <h1>Profesor</h1>
+                    </div>
+               </div>
+               <div className='loginUsersStd-box'> 
+                    <div >
+                    <img className='imageIconSize'  src= {img} alt={"img"}/>
+                    </div>
+                    <div>
+                    <h1>{title}</h1>
+                    </div>
+               </div>
             </div>
             
 
@@ -21,4 +39,4 @@ class LoginUsers extends React.Component{
 
 }
 
-export default LoginUsers
+export default LoginUsersSdt
