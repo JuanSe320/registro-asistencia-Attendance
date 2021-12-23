@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import PaginaInicio from './pagina/PaginaInicio';
-
+import App from './componentes/App';
 
 /* 
  *  @decs render the app
  */
-ReactDOM.render(<PaginaInicio />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));

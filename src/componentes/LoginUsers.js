@@ -8,26 +8,26 @@ class LoginUsersSdt extends React.Component{
 
             <div className='loginUsers-box'>
                <div className='loginUsersAdm-box'> 
-                    <div >
+                    <div className='centerImageIcon-box'>
                     <img className='imageIconSize'  src= {img} alt={"img"}/>
                     </div>
-                    <div>
+                    <div className='alingText'>
                     <h1>Admin</h1>
                     </div>
                </div>
                <div className='loginUsersProf-box'> 
-                    <div >
+                    <div className='centerImageIcon-box'>
                     <img className='imageIconSize'  src= {img} alt={"img"}/>
                     </div>
-                    <div>
+                    <div className='alingText'>
                     <h1>Profesor</h1>
                     </div>
                </div>
                <div className='loginUsersStd-box'> 
-                    <div >
+                    <div className='centerImageIcon-box'>
                     <img className='imageIconSize'  src= {img} alt={"img"}/>
                     </div>
-                    <div>
+                    <div className='alingText'>
                     <h1>{title}</h1>
                     </div>
                </div>

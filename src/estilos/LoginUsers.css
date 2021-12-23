@@ -29,10 +29,15 @@
     
    }   
 
-   
+   .centerImageIcon-box{
+       justify-self: center;
+   }
+   .alingText{
+       text-align: center;
+   }
    
    .imageIconSize{
-       width:10em;
-       height: 10em;
-       align-self: center;
+       width:9em;
+       height: 9em;
+       
    }
