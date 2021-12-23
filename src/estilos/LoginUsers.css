@@ -1,0 +1,11 @@
+.loginUser-box {
+    display:grid;
+    grid-template-columns:100%;
+    grid-template-rows:50% 50%;
+    width: 25%;
+   }
+   
+   .imageIconSize{
+       width:10em;
+       height: 10em;
+   }

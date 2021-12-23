@@ -1,16 +1,17 @@
 import React from 'react';
-import loginIcon from '../img/loginImg1';
-
+import styles from '../estilos/LoginUsers.css';
 class LoginUsers extends React.Component{
+    
     render(){
+        const {img,title}=this.props    
         return(
 
-            <div>
-                <div>
-                 <img src= {loginIcon} alt={"img"}/>
+            <div className='loginUser-box'>
+                <div >
+                 <img className='imageIconSize'  src= {img} alt={"img"}/>
                 </div>
                 <div>
-                   <h1>Estudiantes</h1>
+                   <h1>{title}</h1>
                 </div>
             </div>
             
