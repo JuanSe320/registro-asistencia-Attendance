@@ -1,6 +1,7 @@
 import React from 'react';
-import styles from '../estilos/LoginUsers.css';
-class LoginUsersSdt extends React.Component{
+import Styles from '../estilos/LoginUsers.css' ;
+import {Link} from 'react-router-dom'
+class LoginUsers extends React.Component{
     
     render(){
         const {img,title}=this.props    
@@ -9,15 +10,20 @@ class LoginUsersSdt extends React.Component{
             <div className='loginUsers-box'>
                <div className='loginUsersAdm-box'> 
                     <div className='centerImageIcon-box'>
-                    <img className='imageIconSize'  src= {img} alt={"img"}/>
+                        <Link to= "/Adm">   
+                            <img className='imageIconSize'  src= {img} alt={"img"}/>
+                        </Link>
                     </div>
+                    
                     <div className='alingText'>
                     <h1>Admin</h1>
                     </div>
                </div>
                <div className='loginUsersProf-box'> 
                     <div className='centerImageIcon-box'>
-                    <img className='imageIconSize'  src= {img} alt={"img"}/>
+                        <Link to= "/Prof">   
+                            <img className='imageIconSize'  src= {img} alt={"img"}/>
+                        </Link>
                     </div>
                     <div className='alingText'>
                     <h1>Profesor</h1>
@@ -25,7 +31,9 @@ class LoginUsersSdt extends React.Component{
                </div>
                <div className='loginUsersStd-box'> 
                     <div className='centerImageIcon-box'>
-                    <img className='imageIconSize'  src= {img} alt={"img"}/>
+                    <   Link to= "/Std">   
+                            <img className='imageIconSize'  src= {img} alt={"img"}/>
+                        </Link>
                     </div>
                     <div className='alingText'>
                     <h1>{title}</h1>
@@ -39,4 +47,4 @@ class LoginUsersSdt extends React.Component{
 
 }
 
-export default LoginUsersSdt
+export default LoginUsers
