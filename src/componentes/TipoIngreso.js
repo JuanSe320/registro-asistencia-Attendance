@@ -1,7 +1,13 @@
 import React from 'react';
-import Styles from '../estilos/LoginUsers.css' ;
+import Styles from '../estilos/TipoIngreso.css' ;
 import {Link} from 'react-router-dom'
-class LoginUsers extends React.Component{
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faGraduationCap} from "@fortawesome/free-solid-svg-icons";
+import {faUserTie} from "@fortawesome/free-solid-svg-icons";
+import {faUserCog} from "@fortawesome/free-solid-svg-icons";
+
+
+class TipoIngreso extends React.Component{
     
     render(){
         const {img,title}=this.props    
@@ -10,8 +16,8 @@ class LoginUsers extends React.Component{
             <div className='loginUsers-box'>
                <div className='loginUsersAdm-box'> 
                     <div className='centerImageIcon-box'>
-                        <Link to= "/Adm">   
-                            <img className='imageIconSize'  src= {img} alt={"img"}/>
+                        <Link to= "/login">   
+                            <FontAwesomeIcon className='iconSize' icon={faUserCog}/>
                         </Link>
                     </div>
                     
@@ -21,8 +27,8 @@ class LoginUsers extends React.Component{
                </div>
                <div className='loginUsersProf-box'> 
                     <div className='centerImageIcon-box'>
-                        <Link to= "/Prof">   
-                            <img className='imageIconSize'  src= {img} alt={"img"}/>
+                        <Link to= "/login">   
+                            <FontAwesomeIcon className='iconSize' icon={faUserTie}/>
                         </Link>
                     </div>
                     <div className='alingText'>
@@ -31,8 +37,8 @@ class LoginUsers extends React.Component{
                </div>
                <div className='loginUsersStd-box'> 
                     <div className='centerImageIcon-box'>
-                    <   Link to= "/Std">   
-                            <img className='imageIconSize'  src= {img} alt={"img"}/>
+                        <Link to= "/login">   
+                            <FontAwesomeIcon className='iconSize' icon={faGraduationCap}/>  
                         </Link>
                     </div>
                     <div className='alingText'>
@@ -47,4 +53,4 @@ class LoginUsers extends React.Component{
 
 }
 
-export default LoginUsers
+export default TipoIngreso

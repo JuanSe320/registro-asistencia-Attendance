@@ -3,6 +3,8 @@
     grid-template-columns:20% 20% 20% 20% 20%;
     grid-template-rows:100%;
     width: 100%;
+    position: relative;
+    top: 8em;
    }
 .loginUsersAdm-box {
     display:grid;
@@ -34,10 +36,10 @@
    }
    .alingText{
        text-align: center;
+       font-size: 0.8em;
    }
    
-   .imageIconSize{
-       width:9em;
-       height: 9em;
-       
+   .iconSize{
+    
+        font-size: 4em;   
    }

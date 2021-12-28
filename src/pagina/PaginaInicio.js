@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Header from '../componentes/Header';
-import LoginUsers from '../componentes/LoginUsers';
+import TipoIngreso from '../componentes/TipoIngreso';
 import img1 from '../img/loginImg1.png';
 
 class PaginaInicio extends React.Component{
@@ -9,7 +9,7 @@ class PaginaInicio extends React.Component{
         return(
             <div>
                 <Header />
-                <LoginUsers 
+                <TipoIngreso 
                 title="Estudiantes"
                 img = {img1}
                  />
