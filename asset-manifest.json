@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/registro-asistencia-attendance/static/css/main.8fe33c7f.css",
+    "main.js": "/registro-asistencia-attendance/static/js/main.d7b04e3e.js",
+    "static/media/loginImg1.png": "/registro-asistencia-attendance/static/media/loginImg1.113320e2bc104652a299.png",
+    "index.html": "/registro-asistencia-attendance/index.html",
+    "main.8fe33c7f.css.map": "/registro-asistencia-attendance/static/css/main.8fe33c7f.css.map",
+    "main.d7b04e3e.js.map": "/registro-asistencia-attendance/static/js/main.d7b04e3e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fe33c7f.css",
+    "static/js/main.d7b04e3e.js"
+  ]
+}
