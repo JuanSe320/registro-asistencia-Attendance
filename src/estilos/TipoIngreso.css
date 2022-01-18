@@ -1,0 +1,45 @@
+.loginUsers-box {
+    display:grid;
+    grid-template-columns:20% 20% 20% 20% 20%;
+    grid-template-rows:100%;
+    width: 100%;
+    position: relative;
+    top: 8em;
+   }
+.loginUsersAdm-box {
+    display:grid;
+    grid-column: 2;
+    grid-template-columns:100%;
+    grid-template-rows:50% 50%;
+    width: 100%;
+    align-content: center;
+   }   
+
+.loginUsersProf-box {
+    display:grid;
+    grid-column: 3;
+    grid-template-columns:100%;
+    grid-template-rows:50% 50%;
+    width: 100%;
+   }
+.loginUsersStd-box {
+    display:grid;
+    grid-column: 4;
+    grid-template-columns:100%;
+    grid-template-rows:50% 50%;
+    width: 100%;
+    
+   }   
+
+   .centerImageIcon-box{
+       justify-self: center;
+   }
+   .alingText{
+       text-align: center;
+       font-size: 0.8em;
+   }
+   
+   .iconSize{
+    
+        font-size: 4em;   
+   }
