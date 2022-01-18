@@ -11,7 +11,7 @@ import PaginaLogin from '../pagina/PaginaLogin';
 
 function App(){
     return(
-        <BrowserRouter>
+        <BrowserRouter basename='/registro-asistencia-attendance'>
             <Routes>
                 <Route exact path="/login/Adm" element={<PaginaAdm />}/>
                 <Route exact path="/login" element={<PaginaLogin />} />
